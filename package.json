@@ -1,0 +1,30 @@
+{
+  "name": "file-upload-nodejs",
+  "version": "0.1.0",
+  "description": "A nodejs file upload with localtunnel url(localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes).",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "localtunnel": "^1.9.1",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "lt-server": "SERVER_MODE=lt node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthnaqvi/file-upload-nodejs.git"
+  },
+  "author": "Sayed Tauseef Naqvi <tauseef.naqvi786@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthnaqvi/file-upload-nodejs/issues"
+  },
+  "homepage": "https://github.com/sthnaqvi/file-upload-nodejs#readme"
+}
